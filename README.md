@@ -1,2 +1,2 @@
 # rayTracer
-Simple ray tracer for computer graphics
+Simple ray tracer for Boston College computer graphics course.
