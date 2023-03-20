@@ -1,0 +1,73 @@
+# Image Parameters
+i_width: 300
+i_height: 300
+
+# Camera Parameters
+v3_eye: [0, 0, 0]
+v3_eyeOut: [-1, 0, -56]
+v3_up: [0, 1, 0]
+f_imageplaneDistance: 1
+f_imageplaneHeight: 1
+f_imageplaneWidth: 1
+
+a_geometries:
+    - s_type: box
+      v3_minPt: [-5.5, 13, -54]
+      v3_dim: [3, 3, 1]
+      j_material:
+          v3_diffuse: [1, 1, 1] 
+          f_specularity: -1
+    - s_type: box
+      v3_minPt: [-15, 6, -65]
+      v3_dim: [15, 3, 10]
+      j_material:
+          v3_diffuse: [0.8, 0.1, 0.1] 
+          f_specularity: -1
+    - s_type: box
+      v3_minPt: [-8.5, 6, -65]
+      v3_dim: [15, 3, 10]
+      j_material:
+          v3_diffuse: [0.8, 0.1, 0.1] 
+          f_specularity: -1
+    - s_type: box
+      v3_minPt: [-11, -5, -65]
+      v3_dim: [14, 14, 14]
+      j_material:
+          v3_diffuse: [0.8, 0.1, 0.1] 
+          f_specularity: -1
+    - s_type: box
+      v3_minPt: [-6, 6, -65]
+      v3_dim: [3, 15, 10]
+      j_material:
+          v3_diffuse: [0.8, 0.1, 0.1] 
+          f_specularity: -1
+    - s_type: box
+      v3_minPt: [-10, 11, -65]
+      v3_dim: [12, 12, 12]
+      j_material:
+          v3_diffuse: [0.8, 0.1, 0.1] 
+          f_specularity: -1
+    - s_type: sphere
+      f_radius: 1
+      v3_center: [-7, 18, -53]
+      j_material:
+          v3_diffuse: [0.0,0.3,0.0]
+          f_specularity: 31
+    - s_type: sphere
+      f_radius: 1
+      v3_center: [-1, 18, -53]
+      j_material:
+          v3_diffuse: [0.0,0.3,0.0]
+          f_specularity: 31
+    - s_type: sphere
+      f_radius: 200
+      v3_center: [0, -190, -160]
+      j_material:
+          v3_diffuse: [0.5,0.5,0.5]
+          f_specularity: 31
+
+a_lights:
+    - f_intensity: 0.8
+      v3_position: [60, 60, 0] #[60,60,0]
+    - f_intensity: 0.5
+      v3_position: [3, 0.5, 0]
